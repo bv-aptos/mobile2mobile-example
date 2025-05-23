@@ -128,7 +128,7 @@ function App(): React.JSX.Element {
       JSON.stringify({
         arguments: [
           '0x0000000000000000000000000000000000000000000000000000000000000001',
-          10000000, // 0.1 APT
+          10, // 0.0000001 APT
         ],
         function: '0x1::coin::transfer',
         type: 'entry_function_payload',
